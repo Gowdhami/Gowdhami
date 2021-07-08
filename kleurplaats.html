@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="kleurplaats.css">
+</head>
+
+<body>
+    <table id="tblMain">
+
+        <tr>
+            <td row-index="1" col-index="1">
+                <div id="field1" class="red green blue white"></div>
+            </td>
+            <td row-index="1" col-index="2">
+                <div id="field2" class="red green blue white"></div>
+            </td>
+            <td row-index="1" col-index="3">
+                <div id="field3" class="red green blue white"></div>
+            </td>
+        </tr>
+        <tr>
+            <td row-index="2" col-index="1">
+                <div id="field4" class="red green blue white"></div>
+            </td>
+            <td row-index="2" col-index="2">
+                <div id="field25" class="red green blue white"></div>
+            </td>
+            <td row-index="2" col-index="3">
+                <div id="field36" class="red green blue white"></div>
+            </td>
+        </tr>
+        <tr>
+            <td row-index="3" col-index="1">
+                <div id="field7" class="red green blue white"></div>
+            </td>
+            <td row-index="3" col-index="2">
+                <div id="field8" class="red green blue white"></div>
+            </td>
+            <td row-index="3" col-index="3">
+                <div id="field9" class="red green blue white"></div>
+            </td>
+        </tr>
+    </table>
+
+    <div id="colors">
+        <ul>
+            <li class="red selected"></li>
+            <li class="blue"></li>
+            <li class="yellow"></li>
+        </ul>
+        <button id="reset">Reset Canvas</button>
+    </div>
+
+    <script src="kleurplaats.js" async defer></script>
+</body>
+
+</html>
